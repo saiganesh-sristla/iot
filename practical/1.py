@@ -54,3 +54,15 @@ def Blink(numTimes,speed):
 
 Blink(numTimes,speed)
 print("Done")
+
+
+
+"""
+STEPS
+
+--> connect positive (long) pin to GPIO
+--> connect negative (short) pin to GND
+--> RUN the Program
+--> GND pins are -  6, 9, 14, 20, 30
+
+"""
