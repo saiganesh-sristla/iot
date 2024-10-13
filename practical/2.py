@@ -17,3 +17,19 @@ while(True):
  Display.Show(currenttime)
  Display.ShowDoublepoint(second % 2)
  time.sleep(1)
+
+
+
+"""
+
+PINOUT STRUCTURE
+-----------------
+
+LCD     PI
+-----------
+GND     GND
+VCC     VCC
+CLK     16
+DIO     18
+
+"""
