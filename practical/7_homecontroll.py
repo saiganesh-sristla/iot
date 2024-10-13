@@ -1,3 +1,16 @@
+"""
+PINOUT CONNECTIONS
+------------------------------------
+DEVICE      PI
+--------------------
+VCC             VCC
+GND             GND
+ground ke baju  37 [ 26 GPIO ]
+"""
+
+
+
+
 import RPi.GPIO as GPIO
 from time import sleep
 relay_pin = 26
