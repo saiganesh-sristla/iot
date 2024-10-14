@@ -9,7 +9,7 @@ SDA     3
 SCL     5
 """
 
-
+# wget https://bitbucket.org/MattHawkinsUK/rpispy-misc/raw/master/python/lcd_i2c.py
 
 import smbus
 import time
@@ -58,7 +58,8 @@ def lcd_string(message,line):
  message = message.ljust(LCD_WIDTH," ")
  lcd_byte(line, LCD_CMD)
  for i in range(LCD_WIDTH):
- lcd_byte(ord(message[i]),LCD_CHR)
+ lcd_byte(ord(message[i]),LCD_CHR)
+
 
 def main():
  lcd_init()
